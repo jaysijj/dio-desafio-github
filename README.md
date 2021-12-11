@@ -31,18 +31,3 @@ Após fazer as modificações desejadas, você terá que entrar no diretório pe
 - Git push origin main
 - Pronto, agora todas as modificações feitas no diretório foram repassadas para o GitHub.
 
-
-## 3º -  Adicionar um arquivo no GitHub
-Dentro do diretório que você quer, escreva o comando:
-Git init    - Cria um repositório vazio “.git” dentro de uma pasta.
-É preciso fazer uma configuração antes:
-Git config –global users.email “jaimejaysi@gmail.com”
-Git config –global user.name JaysiJJ
-Coloque o arquivo que você quer adicionar no GitHub dentro da pasta.
-Git add *
-Git commit -m “primeiro commit”
-
-
-
-## links:
-[Sintáxe Básica MarkDown](https://markdownguide.org/basic-syntax)
