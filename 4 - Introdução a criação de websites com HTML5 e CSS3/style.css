@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(44, 43, 43);
+  max-width: 80%;
+  margin: auto;
+}
+#dados {
+  border: 4px solid black;
+  border-radius: 7px;
+  background-color: rgb(66, 65, 65);
+  padding: 15px;
+}
+#jay {
+  height: 120px;
+  padding-top: 55px;
+}
+#dados img {
+  height: 30px;
+  padding-left: 10px;
+}
+#cabeçalho {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05ae7fdf-1ed9-4261-ab43-8ae6a2e1d02a/dchxmjq-2394fe93-4370-4f86-91f1-e564c251cf2c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1YWU3ZmRmLTFlZDktNDI2MS1hYjQzLThhZTZhMmUxZDAyYVwvZGNoeG1qcS0yMzk0ZmU5My00MzcwLTRmODYtOTFmMS1lNTY0YzI1MWNmMmMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.axKTb6zZWNA9Ms8uwB_PLgVpylao0HSs89fHPRi1htM);
+  background-size: contain;
+  height: 200px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  border-radius: 20px;
+  font-family: verdana;
+  text-align: ;
+}
+h1 {
+  color: white;
+}
+h2,
+ol {
+  color: rgb(221, 218, 218);
+}
+
+a:hover {
+  color: rgb(58, 136, 185);
+}
+a {
+  color: rgb(148, 159, 209);
+  background-color: ;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.img1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
