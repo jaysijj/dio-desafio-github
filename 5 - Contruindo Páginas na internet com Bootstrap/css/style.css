@@ -1,0 +1,28 @@
+nav {
+  background-color: rgba(19, 155, 19, 0.719);
+}
+.container {
+}
+.quem-somos {
+  background-color: rgb(42, 40, 40);
+  color: rgb(212, 206, 206);
+}
+.padding {
+  padding: 30px;
+}
+
+#parceiros {
+  background-color: rgb(235, 105, 57);
+}
+
+#serviços {
+  background-color: rgb(73, 142, 206);
+}
+#serviços p {
+  text-align: justify;
+  padding-top: 10px;
+}
+.baixo {
+  background-color: rgb(70, 66, 66);
+  color: white;
+}
