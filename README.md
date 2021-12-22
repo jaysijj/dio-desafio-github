@@ -13,3 +13,6 @@
 ## 5 - Construindo páginas na internet com Bootstrap
 
 ## 6 - Introdução ao JavaScript
+
+## 7 - Sintaxe Básica em JavaScript
+- Projeto de calculadora usando Javascript
