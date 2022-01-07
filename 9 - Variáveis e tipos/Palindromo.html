@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindromo</title>
+  </head>
+  <body>
+    <script>
+      function palindromo(x) {
+        var p = ''
+        for (i = x.length - 1; i >= 0; i--) {
+          console.log(x[i])
+          p += x[i]
+        }
+        if (p.toUpperCase() == x.toUpperCase()) {
+          console.log(`A palavra ${x.toUpperCase()} é palindroma.`)
+        } else {
+          console.log(
+            `Não é palindroma. ${x.toUpperCase()} / ${p.toUpperCase()}`
+          )
+        }
+        /*
+        --Versão 2--
+
+        let z = (x.split('').reverse().join('')) //O "split" é necessário para transformar string em array (porque "reverse" só aceita array), depois utilizamos o "reverse" que irá reverter a frase. O "join" é pra juntar as letras.
+        if (x==z){
+          console.log(`A palavra ${x.toUpperCase()} é palindroma.`)
+        }else{
+            console.log(`Não é palindroma. ${x.toUpperCase()} / ${p.toUpperCase()}`)
+        }
+        */
+      }
+      palindromo('Aibofobia')
+    </script>
+  </body>
+</html>
