@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const lista = [
+            {
+                name: 'sabão em pó',
+                preço: 30
+            },
+            {
+                name: 'careal',
+                preço: 12
+            },
+            {
+                name: 'toalha',
+                preço: 30
+            }
+        ]
+
+        const saldoDisponivel = 100
+
+        function calculaSaldo (saldoDisponivel, lista){
+            return lista.reduce (function (pre, current){
+                console.log({pre})
+                console.log({current})
+                return pre - current.preço
+            }, saldoDisponivel)  // coloquei o saldo disponível pois ele irá iniciar no "pre" acima.
+        }
+        console.log(calculaSaldo(saldoDisponivel, lista))
+        // vai fazer: 100-30 = 70 ... 70-12 = 58 ... 58-30 = 28
+    </script>
+</body>
+</html>

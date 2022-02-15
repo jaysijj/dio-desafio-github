@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+
+        main{
+            text-align: center;
+            background-color: beige;
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+        #change-cat{
+            height: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Just...cats!</h1>
+        <img id="cat" alt=""><br><br>
+        <button id="change-cat">Change cat</button>
+    </main>
+    <script>
+        const base_url = 'https://thatcopy.pw/catapi/rest/'
+        const catBtn = document.getElementById('change-cat')
+
+        const getCats = async () => {
+            try {
+            const data = await fetch (base_url)
+            const json = await data.json()
+
+            return json.webpurl
+        }
+        catch(e){
+            console.log(e.message)
+        }
+    }
+
+    const loadImg = async () => {
+        const catImg = document.getElementById('cat')
+        catImg.src = await getCats()
+    }
+
+    catBtn.addEventListener('click', loadImg)
+
+    loadImg()
+    </script>
+</body>
+</html>

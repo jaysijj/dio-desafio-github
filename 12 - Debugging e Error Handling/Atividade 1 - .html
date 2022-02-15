@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function erro (array, num){
+            try{
+                if (!array && !num) throw new ReferenceError ("Erro de referência")
+                if (typeof array !== 'object') throw new TypeError ("Array precisa ser do tipo objeto")
+                if (typeof num !== 'number') throw new TypeError ("Digite um número")
+                if (array.length !== num) throw RangeError ("Tamanho inválido")
+                console.log(array)
+            }catch(e){
+                if (e instanceof ReferenceError){ //se o erro for um Reference Error
+                    console.log("Este erro é um ReferenceError")
+                    console.log(e.name)
+                }
+                if (e instanceof TypeError){
+                    console.log("Este é um TypeError")
+                    console.log(e.name)
+                }
+                if (e instanceof RangeError){
+                    console.log("Este é um erro RangeError")
+                    console.log(e.name)
+                }else{
+                    console.log("Tipo de erro não esperado.")
+                }
+            }
+
+        }
+        erro ([2],3)
+
+        
+    </script>
+</body>
+</html>
