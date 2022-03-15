@@ -1,0 +1,4 @@
+C:\Users\JJ\Desktop\Digital Inovation One\Repositório da DIO\dio-desafio-github\24 - .NET\DIO.Series\obj\Debug\netcoreapp3.1\DIO.Series.csprojAssemblyReference.cache
+C:\Users\JJ\Desktop\Digital Inovation One\Repositório da DIO\dio-desafio-github\24 - .NET\DIO.Series\obj\Debug\netcoreapp3.1\DIO.Series.AssemblyInfoInputs.cache
+C:\Users\JJ\Desktop\Digital Inovation One\Repositório da DIO\dio-desafio-github\24 - .NET\DIO.Series\obj\Debug\netcoreapp3.1\DIO.Series.AssemblyInfo.cs
+C:\Users\JJ\Desktop\Digital Inovation One\Repositório da DIO\dio-desafio-github\24 - .NET\DIO.Series\obj\Debug\netcoreapp3.1\DIO.Series.csproj.CoreCompileInputs.cache

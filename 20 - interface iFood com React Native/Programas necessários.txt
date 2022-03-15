@@ -1,0 +1,25 @@
+1- https://expo.dev/
+https://www.youtube.com/watch?v=OJtfN6KamnY&ab_channel=Celke
+ir para o cmd -> npm install --global expo-cli
+No GitBash, entre na sua pasta e em seguida -> expo start
+
+2- https://reactnavigation.org/
+yarn add @react-navigation/native
+
+3- https://styled-components.com/
+
+
+Criação de interface inicial do aplicativo do iFood.
+Listagem de:
+- Restaurantes;
+- Carrousel de banners;
+- Categorias;
+
+Uso de React Native, Hooks do React para controle de estado, React Navigation para roteamento de telas e integração de API estática usando JSON para listar os restaurantes.
+
+
+API's:
+GERAL	http://my-json-server.typicode.com/pablohdev/app-ifood-clone/db
+BANNERS	http://my-json-server.typicode.com/pablohdev/app-ifood-clone/banner_principal
+CATEGORIAS	http://my-json-server.typicode.com/pablohdev/app-ifood-clone/categorias
+RESTAURANTES	http://my-json-server.typicode.com/pablohdev/app-ifood-clone/restaurantes
